@@ -1,5 +1,5 @@
 var React = require('react');
-var ListItem = React.createClass({
+var listItem = React.createClass({
   render: function() {
     return (
       <li>
