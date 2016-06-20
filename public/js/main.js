@@ -21595,9 +21595,17 @@ var SimpleSlider = React.createClass({
     var settings = {
       dots: true
     };
+    var divStyle = {
+      margin: '0 auto',
+      padding: '40px',
+      width: '80%',
+      height: '500px',
+      color: '#333',
+      background: '#419be0'
+    };
     return React.createElement(
       'div',
-      { className: 'container' },
+      { style: divStyle },
       React.createElement(
         Slider,
         settings,
