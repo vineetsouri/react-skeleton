@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDom = require('react-dom');
-var SimpleSlider = require('./components/SimpleSlider.jsx');
+var ListManager = require('./components/ListManager.jsx');
 
 
-ReactDom.render(<SimpleSlider />, document.getElementById('container')); 
+ReactDom.render(<ListManager title="Ingredients"/>, document.getElementById('container')); 

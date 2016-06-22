@@ -17,10 +17,10 @@ var SimpleSlider = React.createClass({
     return (
       <div style={divStyle}>
         <Slider {...settings}>
-          <img src='http://placekitten.com/g/400/200' />
-          <img src='http://placekitten.com/g/400/200' />
-          <img src='http://placekitten.com/g/400/200' />
-          <img src='http://placekitten.com/g/400/200' />
+            <img src='https://udemy-images.udemy.com/course/750x422/500628_a962.jpg' />
+            <img src='http://blog.sendbird.com/wp-content/uploads/2016/02/reactive-native.png' />
+            <img src='http://blog.ionic.io/wp-content/uploads/2016/02/ionic2beta.png' />
+            <img src='http://placekitten.com/g/400/200' />
         </Slider>
       </div>
     );
